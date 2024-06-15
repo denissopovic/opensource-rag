@@ -1,0 +1,6 @@
+llama_index.core
+llama_index.embeddings.huggingface
+llama_index.llms.ollama
+llama_index.vector_stores.qdrant
+pathlib
+qdrant_client
