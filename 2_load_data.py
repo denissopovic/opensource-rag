@@ -35,5 +35,5 @@ index = VectorStoreIndex.from_documents(documents, service_context=service_conte
 
 # Query the index
 query_engine = index.as_query_engine()
-response = query_engine.query("Who knows drupal? Give details.")
+response = query_engine.query("Who is Denis Ragovic?")
 print(response)

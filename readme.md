@@ -4,18 +4,31 @@ This project is designed to test and demonstrate the capabilities of language mo
 
 ## Project Overview
 
-The primary goal of this project is to run simple tests to ensure the Language Learning Model (LLM) is functioning correctly. The `smoketest.py` script is designed to perform a basic check to confirm that the LLM is responding to prompts.
+The primary goal of this project is to run simple scripts to build a simple RAG-application. 
 
-## Installation
+The `1_test_ollama.py` script is designed to perform a basic check to confirm that the LLM is installed with Ollama.
 
-Before running the project, you need to have Python installed. We recommend using a virtual environment to manage dependencies.
+The `2_load_data.py` script is embedding the PDF-data into Qdrant vector db.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/AI-Talk.git
-   cd AI-Talk
+The `3_verify_index.py` script is to verify that the data we vectorized in Qdrant works.
 
-2. To run the smoke test, use the following command:
+The `app.py` runs a Flask server that runs an API so you can use Curl for example to test your RAG app.
 
-   ```bash
-    python smoketest.py
+  `curl --request POST 'http://127.0.0.1:5000/process_form' --form 'query=Who is Denis?'`
+
+## Links
+
+Learn more about prompt engineering
+https://www.promptingguide.ai/
+
+LlamaIndex
+https://www.llamaindex.ai/
+
+Malmö AI devs Meetup group
+https://www.meetup.com/malmo-ai-devs/
+
+Malmö AI devs Discord
+https://discord.gg/8XbJKhXr
+
+My LinkedIn
+https://www.linkedin.com/in/denis-sopovic/
