@@ -32,3 +32,6 @@ https://discord.gg/8XbJKhXr
 
 My LinkedIn
 https://www.linkedin.com/in/denis-sopovic/
+
+These scripts are inspired by this blogpost
+https://www.llamaindex.ai/blog/running-mixtral-8x7-locally-with-llamaindex-e6cebeabe0ab
