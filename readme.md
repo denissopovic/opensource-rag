@@ -28,7 +28,7 @@ Malmö AI devs Meetup group
 https://www.meetup.com/malmo-ai-devs/
 
 Malmö AI devs Discord
-https://discord.gg/8XbJKhXr
+https://discord.gg/2vfZNc3dCY
 
 My LinkedIn
 https://www.linkedin.com/in/denis-sopovic/
